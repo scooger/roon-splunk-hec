@@ -1,18 +1,28 @@
 {
-  "name": "roon-slack-bot",
+  "name": "roon-splunk-hec",
   "version": "1.0.0",
-  "description": "Roon extension for posting playing status to Slack",
+  "description": "Roon extension for sending zone playback info to a Splunk HEC endpoint",
   "main": "app.js",
-  "author": "Thomas Rosdahl",
-  "license": "MIT",
   "dependencies": {
-    "command-line-args": "^4.0.7",
-    "imgur-node-api": "^0.1.0",
-    "node-roon-api": "github:roonlabs/node-roon-api",
-    "node-roon-api-image": "github:roonlabs/node-roon-api-image",
-    "node-roon-api-settings": "github:roonlabs/node-roon-api-settings",
-    "node-roon-api-status": "github:roonlabs/node-roon-api-status",
-    "node-roon-api-transport": "github:roonlabs/node-roon-api-transport",
-    "node-webhooks": "^1.2.4"
-  }
+    "console-stamp": "^0.2.9",
+    "node-roon-api": "^1.2.2",
+    "node-roon-api-image": "^1.0.0",
+    "node-roon-api-status": "^1.0.0",
+    "node-roon-api-settings": "^1.0.0",
+    "node-roon-api-transport": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravSplk/roon-splunk-hec.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TravSplk/roon-splunk-hec/issues"
+  },
+  "homepage": "https://github.com/TravSplk/roon-splunk-hec#readme"
 }

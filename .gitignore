@@ -58,8 +58,9 @@ typings/
 .env
 
 .vscode
-image.tmp
-roonbot.bat
+roonsplunk.bat
 config.json
 webHooksDB.json
 
+mynotes.md
+package-lock.json
